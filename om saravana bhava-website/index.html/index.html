@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Divine Loop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay">
+    <h1>Divine Loop</h1>
+    <p>Peaceful music • Continuous loop</p>
+
+    <button onclick="playPause()">▶ Play / Pause</button>
+    <button onclick="stopMusic()">⏹ Stop</button>
+
+    <audio id="audio" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
